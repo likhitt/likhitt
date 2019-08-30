@@ -75,20 +75,19 @@
 
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+            <li class="nav-item {% if page.url == "/" %}active{% endif %}">
+              <a class="nav-link" href="/">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
+            <li class="nav-item {% if page.url == "/about.html" %}active{% endif %}">
+              <a class="nav-link" href="/about.html">About me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free
-                download</a>
+            <li class="nav-item {% if page.url == "/blog.html" %}active{% endif %}">
+              <a class="nav-link" href="/blog.html">Blog</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
+            <li class="nav-item {% if page.url == "/showcase.html" %}active{% endif %}">
+              <a class="nav-link" href="/showcase.html">Showcase</a>
             </li>
           </ul>
 
