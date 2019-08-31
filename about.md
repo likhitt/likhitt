@@ -50,7 +50,7 @@ permalink: /about
 		<ul>
 			<li>Technical Consultant</li>
 		</ul>
-		<strong>Triumph Motorcycles Limited - 3 years 5 months</strong>
+		<strong>Triumph Motorcycles Limited</strong>
 		<ul>
 			<li>IT Infrastructure Analyst</li>
 			<li>Graduated Engineer</li>
