@@ -1,7 +1,7 @@
 ---
 title: "Tags"
 layout: default
-permalink: "/tags.html"
+permalink: "/tags"
 ---
 
 <div class="container">
@@ -17,7 +17,7 @@ permalink: "/tags.html"
         {% if post.title != null %}
           {% if group == null or group == post.group %}
          
-            {% include main-loop-card.html %}
+            {% include main-loop-card %}
           {% endif %}
         {% endif %}
         {% endfor %}
@@ -29,7 +29,7 @@ permalink: "/tags.html"
         </div>
         
             <div class="col-md-4">
-        {% include sidebar-featured.html %}    
+        {% include sidebar-featured %}    
     </div>
         
     </div>
