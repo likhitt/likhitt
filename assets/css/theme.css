@@ -1,7 +1,9 @@
 /*!
  * Mundana Jekyll Theme (https://www.wowthemes.net/mundana-jekyll-theme/)
  */
-
+html {
+	overflow-y: scroll;
+}
 body {
 	overflow-x:hidden;
 	padding-top:69.75px;
