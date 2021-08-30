@@ -43,8 +43,9 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: likhitt
       avatar: /assets/images/avatar1.jpg
+      permalink: /blogs/:title
       
   # all pages
   - scope:
